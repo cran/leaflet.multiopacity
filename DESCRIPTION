@@ -1,7 +1,7 @@
 Package: leaflet.multiopacity
 Type: Package
 Title: Leaflet Multiple Opacity Controls for R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person(
       given = "Vinícius",
@@ -31,11 +31,11 @@ Suggests: leaflet, testthat, magrittr, raster, rgdal, covr, knitr,
         rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2020-11-27 15:55:31 UTC; viniciuszendron
+Packaged: 2020-12-14 14:24:56 UTC; viniciuszendron
 Author: Vinícius Zendron [aut],
   Meantrix [cre, cph],
   Yasunori Kirimoto [ctb, cph] (Leaflet.Control.Opacity JavaScript
     library)
 Maintainer: Meantrix <dev@meantrix.com>
 Repository: CRAN
-Date/Publication: 2020-11-30 09:20:06 UTC
+Date/Publication: 2020-12-14 16:40:02 UTC

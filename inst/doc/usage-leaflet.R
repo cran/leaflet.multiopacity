@@ -29,7 +29,7 @@ leaflet() %>%
   addRasterImage(r, layerId = "rast") %>%
   addAwesomeMarkers(lng = -2.79545, lat = 54.04321,
                     label = "Hospital", layerId = "hospital") %>%
-  addOpacityControls(collapsed = TRUE, position = "topleft")
+  addOpacityControls(collapsed = TRUE, position = "topleft", size = "s")
 
 ## ---- warning=FALSE-----------------------------------------------------------
 leaflet() %>%

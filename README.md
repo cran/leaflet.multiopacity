@@ -1,12 +1,8 @@
 ## leaflet.multiopacity <a href='http://meantrix.com'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
-<!-- 
-# leaflet.multiopacity
-<a href='http://meantrix.com'><img src='man/figures/header.png'/> 
--->
-
 <!-- badges: start -->
-[![version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-0.1.1-blue.svg)](https://semver.org)
+[![CRAN status](https://www.r-pkg.org/badges/version/leaflet.multiopacity)](https://CRAN.R-project.org/package=leaflet.multiopacity)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Codecov test coverage](https://codecov.io/gh/meantrix/leaflet.multiopacity/branch/main/graph/badge.svg)](https://codecov.io/gh/meantrix/leaflet.multiopacity?branch=main)
 [![R build status](https://github.com/meantrix/leaflet.multiopacity/workflows/R-CMD-check/badge.svg)](https://github.com/meantrix/leaflet.multiopacity/actions)
@@ -22,7 +18,13 @@ Before you begin, ensure you have met the following requirement(s):
 
 - You have `R >= 3.5.0` installed.
 
-This package is not yet released on CRAN. Meanwhile, you can install the latest stable version from Github with:
+Install the latest version released on CRAN:
+
+```r
+install.packages("leaflet.multiopacity")
+```
+
+Or install the development version from GitHub:
 
 ```r
 if (!require("remotes")) install.packages("remotes")
